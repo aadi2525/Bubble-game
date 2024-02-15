@@ -62,3 +62,4 @@ addEventListener("click",function(details){
 
 GetHitNumber();
 RunTimer();
+Make_Bubble();
