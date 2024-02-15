@@ -59,9 +59,7 @@ addEventListener("click",function(details){
 })
 
 function color_change(){
-    var color =style.backgroundColor = "red";
-    document.querySelector("#Pbtm").innerHTML  = color;
-    
+    document.getElementById("#main").style.backgroundColor="red";
 }
 
 
@@ -72,7 +70,7 @@ addEventListener("click",function(details){
    let ClickNumber = Number(details.target.textContent);
 
    if(ClickNumber !== HitNumber){
-   color_change();
+   
     Make_Bubble();
     GetHitNumber();
    }

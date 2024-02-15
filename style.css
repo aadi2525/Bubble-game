@@ -10,14 +10,21 @@ html,body{
     height: 100%;
     width: 100%;
 }
-
+#logo{
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    margin-top: -89vh;
+    margin-left: -93vw;
+    opacity: 1;
+}
 #main{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #67bc74;
+    background-color: #58c058;
 }
 #panel{
     overflow: hidden;
@@ -31,7 +38,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     height: 80px;
     width: 100%;
     background-color: #599f6e;
@@ -41,7 +48,7 @@ html,body{
     background-color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    color: rgb(0, 151, 20);
+    color: rgb(94, 175, 105);
     font-weight: 700;
     font-size: 25px;
     
@@ -76,7 +83,7 @@ html,body{
     font-weight: 500;
     border-radius: 50px;
     background-color:#4cce3e;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #Bubble:hover{
